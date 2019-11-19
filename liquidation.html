@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Dorsa&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Vibes&display=swap" rel="stylesheet">
+
+<title>Page Title</title>
+
+<style>
+
+.image{
+     width: 100%;
+     height: 100%;
+     
+     
+     }
+
+
+h4{
+    text-align: center;
+    overflow: hidden; 
+    white-space: nowrap; 
+    margin-top: -150%;
+    font-size: 50px;
+    color: skyblue;
+    font-family: 'Big Shoulders Text', cursive;
+    letter-spacing: 2px;
+    animation: typing 2.5s steps(100, end),
+    blink-caret .25s;
+    
+   }
+
+table{
+         
+         border: 1px solid #000000;
+         margin-left: 10%;
+         margin-top: -12%;
+         width: 80%;
+         animation: typing 2.5s steps(60, end),blink-caret .25s;
+         position: absolute;
+         
+        
+   }
+   
+   
+th, td{
+         border: 1px solid #000000;
+         text-align: center;
+         color: grey;
+         padding:10px;
+         font-family: 'Big Shoulders Text', cursive;
+         font-size:28px;
+         letter-spacing:5px;
+         }
+
+span{
+        color: yellowgreen;
+}
+
+.total{
+        color: darkorange;
+
+
+}
+
+
+p{
+  position: absolute;
+  font-family: 'Dorsa', sans-serif;
+  margin-left: 76%;
+  margin-top: -430px;
+  font-size: 3em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+
+h1{
+     background: -webkit-linear-gradient(#eee, #222222); -webkit-background-clip: text; -webkit-text-fill-color: transparent; 
+     margin-top: 730px;
+     text-align: center;
+     font-family: 'Vibes', cursive;
+     letter-spacing: 2px;
+
+}
+@keyframes animate {
+
+  0% {
+    background-position: -500%;
+    
+  }
+  
+  100% {
+    background-position: 500%;
+  }
+}
+
+
+@keyframes typing{
+    from { width: 0 } to { width: 80% }
+     } 
+     
+     
+
+
+.fade-in{
+animation: fadeIn ease 60s;
+-webkit-animation: fadeIn ease 60s;
+-moz-animation: fadeIn ease 60s;
+-o-animation: fadeIn ease 60s;
+-ms-animation: fadeIn ease 60s;
+}
+
+@keyframes fadeIn {
+
+0% {
+opacity:0;
+}
+
+100% {
+opacity:1;
+}
+
+}
+
+@-moz-keyframes fadeIn {
+0% {
+opacity:0;
+}
+
+100% {
+opacity:1;
+}
+
+}
+
+@-webkit-keyframes fadeIn {
+0% {
+opacity:0;
+}
+
+100% {
+opacity:1;
+}
+
+}
+
+@-o-keyframes fadeIn {
+0% {
+opacity:0;
+}
+
+100% {
+opacity:1;
+}
+
+}
+
+@-ms-keyframes fadeIn {
+0% {
+opacity:0;
+}
+
+100% {
+opacity:1;
+}
+}
+
+</style>
+</head>
+<body>
+
+
+<img src= "background1.png" class = "image">
+
+<h4>EXPENSES</h4>
+
+<table> 
+
+   <tr> 
+
+       <th>Firstname</th> 
+       <th>Lastname</th> 
+
+   </tr> 
+
+   <tr> 
+
+       <td>Priya</td> 
+   <td><span>&#8369;</span>35.80</td> 
+
+   </tr> 
+
+   <tr> 
+
+       <td>Arun</td> 
+   <td><span>&#8369;</span>20.00</td> 
+
+   </tr> 
+
+   <tr> 
+
+       <td>Sam</td> 
+   <td><span>&#8369;</span>20.00</td> 
+
+   </tr> 
+
+   <tr> 
+       
+       <td>Priya</td> 
+   <td><span>&#8369;</span>92.92</td> 
+
+   </tr> 
+
+   <tr> 
+
+       <td>Arun</td> 
+   <td><span>&#8369;</span>28.92</td> 
+
+   </tr> 
+
+   <tr> 
+       
+       <td>Sam</td> 
+   <td><span>&#8369;</span>40.00</td> 
+
+   </tr> 
+
+   <tr> 
+
+       <td>Priya</td> 
+   <td><span>&#8369;</span>80.00</td> 
+
+   </tr> 
+
+   <tr> 
+
+       <td>Arun</td> 
+   <td><span>&#8369;</span>45.00</td> 
+
+   </tr> 
+
+   <tr> 
+
+       <td>Sam</td> 
+   <td><span>&#8369;</span>89.00</td> 
+
+   </tr> 
+
+   <tr> 
+
+       <td>Priya</td> 
+   <td><span>&#8369;</span>20.76</td> 
+
+   </tr> 
+
+   <tr> 
+
+       <td>Arun</td> 
+   <td><span>&#8369;</span>19.20</td> 
+
+   </tr> 
+
+   <tr> 
+
+       <td>Sam</td> 
+   <td><span>&#8369;</span>34.80</td> 
+
+    </tr> 
+
+    <tr>
+       
+       <td class = "total">TOTAL</td>  
+   <td><span>&#8369;</span>198,927</td> 
+       
+    </tr>
+       
+</table> 
+
+
+<h1 class = "fade-in">Merry Christmas <br> And <br>Happy New Year <br> to All.</h1>
+
+<p>&copydennisluna</p>
+
+</body>
+</html>
